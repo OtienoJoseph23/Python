@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- project data (generated) ---
+**/data/raw/
+**/data/processed/
+
+#virtual environments
+.ven/
+
+# PyCharm / Intellij
+.idea/
+*.iml
