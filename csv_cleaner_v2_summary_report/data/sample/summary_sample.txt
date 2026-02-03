@@ -1,0 +1,14 @@
+--- SUMMARY ---
+{
+  "total_rows": 12,
+  "used_rows": 4,
+  "skipped_rows": 8,
+  "skipped_by_reason": {
+    "empty": 2,
+    "zero": 1,
+    "negative": 1,
+    "decimal": 1,
+    "text": 2,
+    "missing": 1
+  }
+}

@@ -1,0 +1,44 @@
+--- CLEAN ROWS ---
+{
+    "product_name": "laptop",
+    "qty": 12,
+    "price": 599.0
+}
+{
+    "product_name": "desk",
+    "qty": 10,
+    "price": 120.0
+}
+{
+    "product_name": "laptop bag",
+    "qty": 12,
+    "price": 25.5
+}
+{
+    "product_name": "headset",
+    "qty": 7,
+    "price": 0.0
+}
+
+ --- ERROR LOG (FIRST 3) ---
+{
+  "row": 4,
+  "field": "qty",
+  "raw_value": " \"\"",
+  "reason": "empty",
+  "product": "mouse"
+}
+{
+  "row": 5,
+  "field": "qty",
+  "raw_value": " \"0\"",
+  "reason": "zero",
+  "product": "keyboard"
+}
+{
+  "row": 6,
+  "field": "qty",
+  "raw_value": " \"-2\"",
+  "reason": "negative",
+  "product": "monitor"
+}

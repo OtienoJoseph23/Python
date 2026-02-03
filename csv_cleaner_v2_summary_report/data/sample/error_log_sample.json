@@ -1,0 +1,51 @@
+[
+    {
+        "row": 4,
+        "field": "qty",
+        "raw_value": " \"\"",
+        "reason": "empty",
+        "product": "mouse"
+    },
+    {
+        "row": 5,
+        "field": "qty",
+        "raw_value": " \"0\"",
+        "reason": "zero",
+        "product": "keyboard"
+    },
+    {
+        "row": 6,
+        "field": "qty",
+        "raw_value": " \"-2\"",
+        "reason": "negative",
+        "product": "monitor"
+    },
+    {
+        "row": 7,
+        "field": "qty",
+        "raw_value": " \"2.5\"",
+        "reason": "decimal",
+        "product": "chair"
+    },
+    {
+        "row": 8,
+        "field": "price",
+        "raw_value": " \"KES 120\"",
+        "product": "cable",
+        "reason": "text"
+    },
+    {
+        "row": 10,
+        "field": "price",
+        "raw_value": " ",
+        "product": "webcam",
+        "reason": "empty"
+    },
+    {
+        "row": 12,
+        "field": "qty",
+        "raw_value": " \"five\"",
+        "reason": "text",
+        "product": "tablet"
+    }
+]

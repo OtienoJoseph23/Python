@@ -1,13 +1,22 @@
 # Python
 A collection of Python scripts and mini-projects focused on data cleaning, analysis, and automation.
 
+## Sales Summary Report (End-to-End)
+
 ## Goal
-- To generate messy data sales and clean it into a consistent format for analysis
+- To Produce a summary report from cleaned sales data:
+* total rows
+* unique products
+* total quantity
+* total revenue
+* top product by revenue
+* per-product total quantity
 
-## Code
-- `csv_cleaner v1/src/generate_messy_data.py` – creates messy CSV
-- `csv_cleaner v1/src/clean_data.py` – cleans/validates and outputs cleaned CSV
+## Approach
+This project is end-to-end:
+1) Generate messy data (raw CSV)
+2) Clean and validate it (clean CSV)
+3) Compute summary metrics from the clean CSV
 
-## Samples 
-- `csv_cleaner v1/data/sample/raw_sample.csv`
-- `csv_cleaner v1/data/sample/clean_sample.csv`
+
+
